@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1400px;
+    background-color: aliceblue;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+.col30{
+    width: 30%;
+}
+.card {
+    background-color: darkslategrey;
+    padding: 100px 0;
+}
+.card h1{
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+.cart1{
+    background-color: white;
+    margin: 20px;
+    padding: 0 0 10px 0;
+}
+.cart1 p{
+    background-color: white;
+    font-size: 20px;
+    width: 90%;
+    padding: 10px 0;
+    margin: 0 0 0 10px;
+}
+.cart1 button{
+    border: 1px solid blue;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin: 0 0 0 10px;
+}
+.b{
+    margin: 0 0 0 -3px;
+}
